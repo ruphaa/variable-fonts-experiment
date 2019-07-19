@@ -1,0 +1,33 @@
+@font-face {
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/TINY5x3GX.woff2');
+	font-family:'TINY 5x3';
+	font-style: normal;
+	font-weight: 20 300;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url(https://i.pinimg.com/originals/b0/22/22/b02222b87d2c3693af074762411d3ecb.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+h1 {
+  --axis: 20;
+    color: #F8FBF9;
+	font-family:'TINY 5x3';
+  font-weight: var(--axis);	
+  font-size: 15rem;
+  text-transform: uppercase;
+  margin-top: -5rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  letter-spacing: 1rem;
+  line-height: 2;
+}
