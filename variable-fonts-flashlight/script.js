@@ -1,4 +1,5 @@
 
+// Inspired from Mandy Micheal's Light it up experiment - https://variablefonts.dev/
 
 var text = document.querySelector("h1");
 
